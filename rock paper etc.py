@@ -13,19 +13,19 @@ while player==False:
     if player==computer:
         print('Tieeee!')
         tie+=1
-    elif player=="Rock":
+    elif player.lower=="rock":
         if computer=="Paper":
             print("You lose! good day sir")
             loss+=1
         else:
             print("You win! Conrats!")
             win+=1
-    elif player=="Scissors":
+    elif player.lower=="scissors":
         if computer=="Rock":
             print("You lose! good day<3")
             loss+=1
-    elif player == "Paper":
-        if computer == "Scissors":
+    elif player.lower=="paper":
+        if computer=="Scissors":
             print("You lose! good bye!")
             loss+=1
         else:
